@@ -74,12 +74,28 @@ button {
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 500;
     font-size: 1em;
+    color: #ffffff;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .ios {
     background: hsl(171, 66%, 44%);
+    box-shadow: 1px 3px hsl(171, 60%, 38%);
 }
+
+.ios:hover {
+    background: hsl(171, 64%, 48%);
+}
+
 
 .andriod {
     background: hsl(233, 100%, 69%);
+    box-shadow: 1px 3px hsl(233, 94%, 59%);
+}
+
+.andriod:hover {
+    background: hsl(233, 98%, 73%);
 }
