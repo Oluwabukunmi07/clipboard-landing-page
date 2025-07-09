@@ -12,13 +12,14 @@
     --p-color: hsl(201, 11%, 66%);
     --ios-bg-color: hsl(171, 66%, 44%);
     --android-bg-color: hsl(233, 100%, 69%);
+    --font-family: 'Bai Jamjuree', sans-serif;
 }
 
 body {
     background-color: var(--bg-color);
     max-width: 360px;
     margin: 0 auto;
-    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: var(--font-family);
     background-color: aliceblue;
 }
 
@@ -64,8 +65,11 @@ p {
     margin-top: 4em;
 }
 
-.history-content {
+.history {
     text-align: center;
+}
+
+.history-content {
     padding: 0 1.5em;
 }
 
@@ -83,7 +87,7 @@ button {
     height: 3.5em;
     border: none;
     border-radius: 999px;
-    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 1em;
     color: #ffffff;
@@ -112,12 +116,12 @@ button:hover {
     background: hsl(233, 98%, 73%);
 }
 
-.features, .access-clipboard {
+.features, .access-clipboard, .supercharge-workflow {
     padding: 0 1.6em;
+    text-align: center;
 }
 
 .keep-track {
-    text-align: center;
     margin-top: 10em;
     display: flex;
     flex-direction: column;
@@ -132,14 +136,12 @@ button:hover {
 .search {
     display: flex;
     flex-direction: column;
-    text-align: center;
     margin-top: 3em;
 }
 
 .clipboard {
     display: flex;
     flex-direction: column;
-    text-align: center;
     margin-top: 10em;
 }
 
@@ -150,3 +152,17 @@ button:hover {
 }
 
 /* SUPERCHARGE WORKFLOW */
+.supercharge-workflow {
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.workflow {
+    margin-bottom: 1em;
+}
+
+.blacklists, .icon, .preview {
+    margin-bottom: 2.5em;
+}
