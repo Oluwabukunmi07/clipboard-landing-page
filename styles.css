@@ -13,6 +13,7 @@
     --ios-bg-color: hsl(171, 66%, 44%);
     --android-bg-color: hsl(233, 100%, 69%);
     --font-family: 'Bai Jamjuree', sans-serif;
+    --bg-footer: #f3f3f3;
 }
 
 body {
@@ -73,13 +74,16 @@ p {
     padding: 0 1.5em;
 }
 
+.history>.buttons {
+    padding: 0 2em;
+}
+
 .buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1em;
-    margin: 2em 2em;
+    gap: 1.7em;
 }
 
 button {
@@ -116,7 +120,7 @@ button:hover {
     background: hsl(233, 98%, 73%);
 }
 
-.features, .access-clipboard, .supercharge-workflow {
+.features, .access-clipboard, .supercharge-workflow, .download-clipboard {
     padding: 0 1.6em;
     text-align: center;
 }
@@ -165,4 +169,61 @@ button:hover {
 
 .blacklists, .icon, .preview {
     margin-bottom: 2.5em;
+}
+
+/* IT COMPANIES */
+.it-companies>div {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+    margin-top: 6em; 
+}
+
+.it-companies img {
+    width: 40%;
+    height: 50%;
+}
+
+/* CLIPBOARD FOR MAC AND IOS */
+
+.download-clipboard {
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: var(--bg-footer);
+    align-items: center;
+}
+
+.footer>div {
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-footer {
+    width: 50%;
+    margin-top: 5em;
+}
+
+.footer p {
+    color: var(--p-color);
+    font-size: 0.9em;
+    margin-bottom: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--h1-color);
+}
+
+a:hover {
+    color: hsl(171, 64%, 48%);
 }
