@@ -199,7 +199,7 @@ button:hover {
 .footer {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 2em;
     background-color: var(--bg-footer);
     align-items: center;
 }
@@ -213,6 +213,21 @@ button:hover {
 .logo-footer {
     width: 50%;
     margin-top: 5em;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.footer-links>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -1em;
 }
 
 .footer p {
@@ -282,6 +297,7 @@ a:hover {
 
     button {
         width: 15em;
+        font-size: 1em;
     }
 
     /* KEEP TRACK */
@@ -310,6 +326,7 @@ a:hover {
 
     .search {
         align-items: start;
+        justify-content: center;
         text-align: start;
         width: 30%;
         margin-top: 0;
@@ -320,6 +337,63 @@ a:hover {
     /* ACCESS CLIPBOARD */
     .clipboard>p {
         width: 34%;
-        
+        justify-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
-} 
+
+    .devices {
+        width: 50%;
+        height: 50%;
+    }
+    
+    /* WORKFLOW */
+    .workflow-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 78%;
+        margin: 0 auto;
+    }
+
+    .workflow-content>div {
+        width: 30%;
+        text-align: center;
+    }
+
+    /* IT-COMPANIES */
+    .it-companies>div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 78%;
+        margin: 7em auto;
+    }
+
+    .it-companies img {
+        width: 8%;
+        height: 8%;
+    }
+
+    /* CLIPBOARD FOE IOS AND MAC-OS */
+    .mac-os {
+        width: 34%;
+        margin: 0 auto;
+    }
+
+    /* FOOTER */
+    .footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2em;
+    }
+}
