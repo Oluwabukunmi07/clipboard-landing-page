@@ -66,6 +66,7 @@ p {
     margin-top: 4em;
 }
 
+/* HISTORY OF EVERYTHING YOU COPY */
 .history {
     text-align: center;
 }
@@ -125,6 +126,7 @@ button:hover {
     text-align: center;
 }
 
+/* KEEP TRACK OF SNIPPETS */
 .keep-track {
     margin-top: 10em;
     display: flex;
@@ -253,6 +255,10 @@ a:hover {
         font-size: 2.2em;
     }
 
+    h2 {
+        font-size: 2em;
+    }
+
     .history-content {
         position: relative;
         bottom: 1.3em;
@@ -263,7 +269,7 @@ a:hover {
     }
     
     .history-content>p {
-        width: 30%;
+        width: 32%;
     }
 
     .buttons {
@@ -276,5 +282,44 @@ a:hover {
 
     button {
         width: 15em;
+    }
+
+    /* KEEP TRACK */
+    .keep-track {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .keep-track>p {
+        width: 34%;
+    }
+
+    .features-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .computer {
+        display: flex;
+        align-items: start;
+        position: relative;
+        right: 20%;
+    }
+
+    .search {
+        align-items: start;
+        text-align: start;
+        width: 30%;
+        margin-top: 0;
+        position: relative;
+        right: 9em;
+    }
+
+    /* ACCESS CLIPBOARD */
+    .clipboard>p {
+        width: 34%;
+        
     }
 } 
