@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Oluwabukunmi07/clipboard-landing-page.git)
-- Live Site URL: [Add live site URL here](https://oluwabukunmi07.github.io/clipboard-landing-page/)
+- Solution URL: [github repository](https://github.com/Oluwabukunmi07/clipboard-landing-page.git)
+- Live Site URL: [repository livesite](https://oluwabukunmi07.github.io/clipboard-landing-page/)
 
 ## My process
 
@@ -53,8 +53,8 @@ To see how you can add code snippets, see below:
 
 
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Oluwabukunmi07)
-- Twitter - [@yourusername](https://www.twitter.com/Oluwabukunmi07)
+- Frontend Mentor - [Oluwabukunmi07](https://www.frontendmentor.io/profile/Oluwabukunmi07)
+- Twitter - [Oluwabukunmi07](https://www.twitter.com/Oluwabukunmi07)
 
 
 
