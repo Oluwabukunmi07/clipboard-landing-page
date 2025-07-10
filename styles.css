@@ -227,3 +227,54 @@ a {
 a:hover {
     color: hsl(171, 64%, 48%);
 }
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 1024px) {
+    body {
+        min-width: 100%;
+        background: #fff;
+        overflow-x: hidden;
+    }
+
+    .img-logo {
+        background-image: url(./images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        background: #ffffff;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    .history-content {
+        position: relative;
+        bottom: 1.3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .history-content>p {
+        width: 30%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+
+    button {
+        width: 15em;
+    }
+} 
