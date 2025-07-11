@@ -18,7 +18,7 @@
 
 body {
     background-color: var(--bg-color);
-    max-width: 360px;
+    max-width: 1440px;
     margin: 0 auto;
     font-family: var(--font-family);
     background-color: aliceblue;
@@ -56,6 +56,7 @@ p {
     display: flex;
     justify-content: center;
     background-image: url(./images/bg-header-mobile.png);
+    background-size: cover;
     align-items: center;
     width: 100%;
     padding: 3em;
@@ -88,7 +89,7 @@ p {
 }
 
 button {
-    width: 100%;
+    width: 20em;
     height: 3.5em;
     border: none;
     border-radius: 999px;
@@ -468,12 +469,13 @@ a:hover {
         align-items: center;
         gap: 3em;
         position: relative;
-        right: 8em;
+        right: 2em;
     }
 
     .footer-links-content>p {
         text-align: start;
         align-self: flex-start;
+        text-wrap: nowrap;
     }
 
     .logo-footer {
@@ -484,6 +486,6 @@ a:hover {
     .footer-socials {
         position: relative;
         top: 2em;
-        left: 3em;
+        left: 0.5em;
     }
 }
